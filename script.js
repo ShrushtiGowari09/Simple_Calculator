@@ -1,6 +1,6 @@
 const display = document.querySelector('.display');
 function append(numb) {
-    display.value += numb;
+    display.value += number;
 }
 function calculate() {
     try {
@@ -9,9 +9,9 @@ function calculate() {
         display.value = "Error";
     }
 }
-const numbers = document.querySelectorAll('.number');
-const operators = document.querySelectorAll('.operator');
-const container = document.querySelector('.calculator');
+const numbers = document.querySelectorAll('.numb');
+const operators = document.querySelectorAll('.oper');
+const container = document.querySelector('.calcu');
 
 function toggleMode() {
     const toggleButton = document.querySelector('.toggle-btn');
